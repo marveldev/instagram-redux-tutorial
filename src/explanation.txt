@@ -1,0 +1,28 @@
+// install the redux and redux toolkit from the terminal.
+// import the provider component from react-redux.
+// The provider component is a property of redux that makes the redux store available
+to the components inside it.
+
+// the configureStore is a method property of RTK and expects a reducer object as its argument.
+// we can have various objects in the reducer object, but only one configureStore.
+// the reducer in the configureStore can take more than one object as its value
+depending on th number of createSlice() store we have.
+
+// the createSlice() expects an object as its argument.
+// the object consist of nested objects with three key value: name, initialState, reducers.
+
+// the name is the name of the slice, it is also gonna be used when calling the slice.
+// initialState is the initial value of the state store, it also expects object.
+// reducers is like the action house of the app, that modifies the state.
+// reducers expect an object which consist of the actions that should be carried out, as related to that state.
+// more than one action can be added to the reducers.
+
+// the useDispatch() is imported from react-redux and is used to send data to the state,
+through the dispatch()
+
+// the useSelector() is a function that gets the data from the state.
+
+// why redux toolkit not redux
+// redux toolkit allows for lesser code importation and implementation.
+
+// redux allows for better and more efficeient state management system
